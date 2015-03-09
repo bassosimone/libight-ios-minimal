@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB894BD1AAE5710006F98E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB894BB1AAE5710006F98E6 /* Main.storyboard */; };
+		FCB894BF1AAE5710006F98E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB894BE1AAE5710006F98E6 /* Images.xcassets */; };
+		FCB894C21AAE5710006F98E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB894C01AAE5710006F98E6 /* LaunchScreen.xib */; };
+		FCB894CE1AAE5710006F98E6 /* libight_ios_minimalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB894CD1AAE5710006F98E6 /* libight_ios_minimalTests.m */; };
+		FCB894D91AAE5757006F98E6 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCB894D71AAE5757006F98E6 /* main.mm */; };
+		FCB894E71AAE5AF0006F98E6 /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB894E41AAE5AF0006F98E6 /* libevent.a */; };
+		FCB894E81AAE5AF0006F98E6 /* libight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB894E51AAE5AF0006F98E6 /* libight.a */; };
+		FCB894E91AAE5AF0006F98E6 /* libyaml-cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB894E61AAE5AF0006F98E6 /* libyaml-cpp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCB894C81AAE5710006F98E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB894A61AAE5710006F98E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB894AD1AAE5710006F98E6;
+			remoteInfo = "libight-ios-minimal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCB894AE1AAE5710006F98E6 /* libight-ios-minimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "libight-ios-minimal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB894B21AAE5710006F98E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB894BC1AAE5710006F98E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCB894BE1AAE5710006F98E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCB894C11AAE5710006F98E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FCB894C71AAE5710006F98E6 /* libight-ios-minimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libight-ios-minimalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB894CC1AAE5710006F98E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB894CD1AAE5710006F98E6 /* libight_ios_minimalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libight_ios_minimalTests.m; sourceTree = "<group>"; };
+		FCB894D71AAE5757006F98E6 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		FCB894E41AAE5AF0006F98E6 /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = "../libight-build-ios/dist/lib/libevent.a"; sourceTree = "<group>"; };
+		FCB894E51AAE5AF0006F98E6 /* libight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libight.a; path = "../libight-build-ios/dist/lib/libight.a"; sourceTree = "<group>"; };
+		FCB894E61AAE5AF0006F98E6 /* libyaml-cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libyaml-cpp.a"; path = "../libight-build-ios/dist/lib/libyaml-cpp.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB894AB1AAE5710006F98E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB894E71AAE5AF0006F98E6 /* libevent.a in Frameworks */,
+				FCB894E81AAE5AF0006F98E6 /* libight.a in Frameworks */,
+				FCB894E91AAE5AF0006F98E6 /* libyaml-cpp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB894C41AAE5710006F98E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB894A51AAE5710006F98E6 = {
+			isa = PBXGroup;
+			children = (
+				FCB894E41AAE5AF0006F98E6 /* libevent.a */,
+				FCB894E51AAE5AF0006F98E6 /* libight.a */,
+				FCB894E61AAE5AF0006F98E6 /* libyaml-cpp.a */,
+				FCB894B01AAE5710006F98E6 /* libight-ios-minimal */,
+				FCB894CA1AAE5710006F98E6 /* libight-ios-minimalTests */,
+				FCB894AF1AAE5710006F98E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB894AF1AAE5710006F98E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB894AE1AAE5710006F98E6 /* libight-ios-minimal.app */,
+				FCB894C71AAE5710006F98E6 /* libight-ios-minimalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB894B01AAE5710006F98E6 /* libight-ios-minimal */ = {
+			isa = PBXGroup;
+			children = (
+				FCB894BB1AAE5710006F98E6 /* Main.storyboard */,
+				FCB894BE1AAE5710006F98E6 /* Images.xcassets */,
+				FCB894C01AAE5710006F98E6 /* LaunchScreen.xib */,
+				FCB894B11AAE5710006F98E6 /* Supporting Files */,
+			);
+			path = "libight-ios-minimal";
+			sourceTree = "<group>";
+		};
+		FCB894B11AAE5710006F98E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCB894B21AAE5710006F98E6 /* Info.plist */,
+				FCB894D71AAE5757006F98E6 /* main.mm */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCB894CA1AAE5710006F98E6 /* libight-ios-minimalTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB894CD1AAE5710006F98E6 /* libight_ios_minimalTests.m */,
+				FCB894CB1AAE5710006F98E6 /* Supporting Files */,
+			);
+			path = "libight-ios-minimalTests";
+			sourceTree = "<group>";
+		};
+		FCB894CB1AAE5710006F98E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCB894CC1AAE5710006F98E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB894AD1AAE5710006F98E6 /* libight-ios-minimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB894D11AAE5710006F98E6 /* Build configuration list for PBXNativeTarget "libight-ios-minimal" */;
+			buildPhases = (
+				FCB894AA1AAE5710006F98E6 /* Sources */,
+				FCB894AB1AAE5710006F98E6 /* Frameworks */,
+				FCB894AC1AAE5710006F98E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libight-ios-minimal";
+			productName = "libight-ios-minimal";
+			productReference = FCB894AE1AAE5710006F98E6 /* libight-ios-minimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCB894C61AAE5710006F98E6 /* libight-ios-minimalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB894D41AAE5710006F98E6 /* Build configuration list for PBXNativeTarget "libight-ios-minimalTests" */;
+			buildPhases = (
+				FCB894C31AAE5710006F98E6 /* Sources */,
+				FCB894C41AAE5710006F98E6 /* Frameworks */,
+				FCB894C51AAE5710006F98E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB894C91AAE5710006F98E6 /* PBXTargetDependency */,
+			);
+			name = "libight-ios-minimalTests";
+			productName = "libight-ios-minimalTests";
+			productReference = FCB894C71AAE5710006F98E6 /* libight-ios-minimalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB894A61AAE5710006F98E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Simone Basso";
+				TargetAttributes = {
+					FCB894AD1AAE5710006F98E6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FCB894C61AAE5710006F98E6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FCB894AD1AAE5710006F98E6;
+					};
+				};
+			};
+			buildConfigurationList = FCB894A91AAE5710006F98E6 /* Build configuration list for PBXProject "libight-ios-minimal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB894A51AAE5710006F98E6;
+			productRefGroup = FCB894AF1AAE5710006F98E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB894AD1AAE5710006F98E6 /* libight-ios-minimal */,
+				FCB894C61AAE5710006F98E6 /* libight-ios-minimalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB894AC1AAE5710006F98E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB894BD1AAE5710006F98E6 /* Main.storyboard in Resources */,
+				FCB894C21AAE5710006F98E6 /* LaunchScreen.xib in Resources */,
+				FCB894BF1AAE5710006F98E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB894C51AAE5710006F98E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB894AA1AAE5710006F98E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB894D91AAE5757006F98E6 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB894C31AAE5710006F98E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB894CE1AAE5710006F98E6 /* libight_ios_minimalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCB894C91AAE5710006F98E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB894AD1AAE5710006F98E6 /* libight-ios-minimal */;
+			targetProxy = FCB894C81AAE5710006F98E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCB894BB1AAE5710006F98E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB894BC1AAE5710006F98E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCB894C01AAE5710006F98E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB894C11AAE5710006F98E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB894CF1AAE5710006F98E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB894D01AAE5710006F98E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB894D21AAE5710006F98E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					i386,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/simone/src/libight/libight-ios-minimal/libight-build-ios/dist/include",
+				);
+				INFOPLIST_FILE = "libight-ios-minimal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/simone/src/libight/libight-build-ios/dist/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 x86_64 i386 armv7s";
+			};
+			name = Debug;
+		};
+		FCB894D31AAE5710006F98E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					i386,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/simone/src/libight/libight-ios-minimal/libight-build-ios/dist/include",
+				);
+				INFOPLIST_FILE = "libight-ios-minimal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/simone/src/libight/libight-build-ios/dist/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 x86_64 i386 armv7s";
+			};
+			name = Release;
+		};
+		FCB894D51AAE5710006F98E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "libight-ios-minimalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libight-ios-minimal.app/libight-ios-minimal";
+			};
+			name = Debug;
+		};
+		FCB894D61AAE5710006F98E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "libight-ios-minimalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libight-ios-minimal.app/libight-ios-minimal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB894A91AAE5710006F98E6 /* Build configuration list for PBXProject "libight-ios-minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB894CF1AAE5710006F98E6 /* Debug */,
+				FCB894D01AAE5710006F98E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB894D11AAE5710006F98E6 /* Build configuration list for PBXNativeTarget "libight-ios-minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB894D21AAE5710006F98E6 /* Debug */,
+				FCB894D31AAE5710006F98E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB894D41AAE5710006F98E6 /* Build configuration list for PBXNativeTarget "libight-ios-minimalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB894D51AAE5710006F98E6 /* Debug */,
+				FCB894D61AAE5710006F98E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB894A61AAE5710006F98E6 /* Project object */;
+}
